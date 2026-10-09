@@ -1,1 +1,177 @@
+/* Navigation class */
+.navigation{
+    /* makes the navigation bar stick to the top of the page */
+    position: sticky;
+    top:0;
+}
+/* Navigation links class */
+.nav-links{
+    /* links in center */
+justify-content: center;
+/* rounds out elements */
+    border-radius: 10px;
+    /* no bullet point */
+  list-style-type: none;
+  /* margin at 0 */
+  margin: 0;
+  /* padding at 0 */
+  padding: 0;
+  /* set background color */
+  background-color: lightpink;
+  /* makes a grid layout */
+  display: flex;
+}
+
+/* All links in list items in the navigation links class */
+.nav-links li a{
+    /* each item is a block visually */
+  display: block;
+  /* assigns color */
+  color: purple;
+  padding:  16px;
+  /* gets rid of link underline */
+  text-decoration: none;
+}
+
+/* All links in list items in the navigation links class when 
+cursor is hovering over */
+.nav-links li a:hover{
+  background-color: #b62b2b;
+}
+
+/* Last list item in navigation links class */
+.nav-links li:last-child {
+    /* No border for last item */
+  border-right: none;
+}
+
+/* All general body elements */
+body{
+    background-color: lightgreen;
+}
+
+/* displayed elements in home file, class */
+.home-stuff{
+    background-color: lightyellow;
+    /* Assigns width */
+    width: 710px;
+    /* sets margin to be automatic */
+    margin: auto;
+    /* center text */
+    text-align: center;
+    border-radius: 10px;
+
+}
+/* displayed elements in about file, class */
+.about-stuff{
+    background-color: lightyellow;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+/* displayed elements in contact file, class */
+.contact-stuff{
+    background-color: lightyellow;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Likes list class */
+.likes{
+    list-style-type: none;
+    /* Assigns margin specifically on the right */
+    margin-right: 40px;
+
+}
+/* hobbies list class */
+.hobbies{
+    list-style-type: none;
+    margin-right: 15px;
+}
+/* portfolio title class */
+.port-title{
+    text-align: center;
+}
+/* parents div element class */
+.parent-portfolio{
+    background-color: lightgreen;
+    /* Sets grid layout */
+    display: flex;
+}
+/* coding project div element class */
+.coding-projects{
+    /* Assigns space for this element inside of the parent */
+    flex: 1;
+    padding: 2px;
+    background-color: lightyellow;
+    text-align: center;
+    width:500px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* list inside of coding projects class */
+.coding-list{
+    list-style-type: none;
+}
+
+
+/* other projects div element class */
+.other-projects{
+    flex: 1;
+    padding: 2px;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    margin:20px;
+    width:600px;
+    border-radius: 10px;
+    list-style-type: none;
+}
+
+/* hr elements */
+hr{
+    background-color: rgb(242, 231, 69);
+    height: 2px;
+    width: 100%;
+    margin:auto;
+    
+}
+
+/* links in general */
+a{
+    text-decoration: none;
+}
+/* links before clicked/starting links */
+a:link{
+    color:lightseagreen;
+}
+/* links when cursor is over them */
+a:hover{
+    color:lightblue;
+}
+/* links when clicked */
+a:visited{
+    color:lightcoral;
+}
+
+/* credits class */
+.credits{
+    /* italicizes text */
+    font-style: italic;
+    /* Sets text size */
+    font-size: 14px;
+    text-align:center;
+}
+
+/* Buttons */
+button{
+    background-color: coral;
+    color: lavender;
+    margin: 10px;
+    border-radius: 10px;
+}
+
 

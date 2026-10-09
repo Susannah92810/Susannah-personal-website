@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+     <!-- Header, connects to css, establishes title, assigns wdith and height -->
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact_Me</title>
 </head>
+<!--Body element, contains all displayed elements-->
 <body>
-    <nav class="navigation">
-            <ul class = "nav-links">
+    <nav class="navigation"><!-- Navigation element that contains list of links -->
+            <ul class = "nav-links"> <!-- List of links that connects html files -->
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href = "about.html">About</a></li>
             <li><a href = "contact.html">Contact</a></li>
             <li><a href = "portfolio.html">Portfolio</a></li>
             </ul>
     </nav>
-    <h1>Contact Form</h1>
+    <!-- Creates the container for contact elements -->
     <div class="contact-stuff">
+    <h1>Contact Form</h1>
         <h2>What's Your name</h2>
+        <!-- Textbox -->
         <input></input>
         <h2>How about your email?</h2>
         <input></input>
         <h2>One random fact about you!</h2>
+        <!-- Larger Text Box that can be adjusted by user -->
         <textarea rows = "5" columns="5"> Type Here!</textarea>
         <h2>What's your favorite book genre?</h2>
+        <!-- Create Dropdown menu -->
         <select>
+            <!-- Options for dropwdown menu -->
             <option>Fantasy</option>
             <option>Horror/Thriller</option>
             <option>Action</option>
@@ -38,6 +45,7 @@
             <option>I prefer movies</option>
         </select>
         <h2>Why do you want to contact me?</h2>
+        <!-- Creates a checkbox -->
         <input type="checkbox">
         <label>For some sort of school/internship oppuritunity</label>
         <br>
@@ -53,12 +61,14 @@
         <input type="checkbox">
         <label>Because you need help with something</label>
         <br>
+        <!-- Creates button -->
         <p><button>Submit!</button></p>
     </div>
 
     
 </body>
 <footer>
-
+    <!-- Credits -->
+<p class= "credits">Credits got to me for coding, freeCodeCamp for teaching me, and Dr.R for putting me on freeCodeCamp </p>
 </footer>
 </html>

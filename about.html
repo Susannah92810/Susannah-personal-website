@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Header, connects to css, establishes title, assigns wdith and height -->
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About_Me</title>
 </head>
+<!--Body element, contains all displayed elements-->
 <body>
     <nav class="navigation">
-            <ul class = "nav-links">
+            <ul class = "nav-links"> <!-- List of links that connects html files -->
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href = "about.html">About</a></li>
             <li><a href = "contact.html">Contact</a></li>
             <li><a href = "portfolio.html">Portfolio</a></li>
             </ul>
     </nav>
+    <!-- Create container for displayed elements  -->
+    <div class = "about-stuff">
     <h1>All About Me!</h1>
-    <p>Paragraph About Me</p>
+    <p>Hi! My name is Susannah but everyone calls me Susie. I'm a 16 year old Libra who loves to read.I'm currently in tenth grade. My favorite genre is probably Sci-Fi but ive read enough that I have recommendatiosn from every genre. One fun fact about me is that I can do tarot! This is my first up and running website. </p>
     <h2>Things I like</h2>
-    <ul>
+    <!-- Unordered list -->
+    <ul class = "likes">
         <li>Chocolate</li>
         <li>Books</li>
         <li>Dogs</li>
     </ul>
     <h2>Hobbies</h2>
-    <ul>
+    <ul class = "hobbies">
         <li>Coding(Go to my portfolio to see more)</li>
-        <li>Fashion Design</li>
+        <li>Fashion Design(Also go to the portfolio)</li>
         <li>Dungeons and Dragons</li>
     </ul>
     <h2>My Favorite Website</h2>
+    <!-- Outside link to pinterest -->
     <a href = "https://www.pinterest.com/" target = "_blank">Click here to find out</a>
+    <!-- Embeds specific pin from pinterest into website -->
+    <p><iframe src="https://assets.pinterest.com/ext/embed.html?id=1152288254684260364" alt="A photo of one of my favorite pins" height="717" width="345" frameborder="0" scrolling="no" ></iframe></p>
+    </div>
 </body>
 <footer>
-
+    <!-- Credits -->
+<p class= "credits">Credits got to me for coding, freeCodeCamp for teaching me, and Dr.R for putting me on freeCodeCamp </p>
 </footer>
 </html>
