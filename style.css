@@ -134,9 +134,10 @@ body{
 /* hr elements */
 hr{
     background-color: rgb(242, 231, 69);
+    /* gets rid of borders */
+    border:none;
     height: 2px;
     width: 100%;
-    margin:auto;
     
 }
 
